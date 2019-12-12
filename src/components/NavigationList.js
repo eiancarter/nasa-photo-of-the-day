@@ -27,7 +27,7 @@ export default function NavigationList(props) {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>
-                                Yesterday
+                                <a href={props.link}>Yesterday</a>
                             </DropdownItem>
                             <DropdownItem>
                                 December 9, 2019
