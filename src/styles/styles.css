@@ -36,6 +36,7 @@ img {
 }
 h1 {
   padding-top: 25px;
+  font-family: 'Titillium Web', sans-serif;
 }
 h2 {
   color: yellow;
@@ -43,9 +44,11 @@ h2 {
   background: #0b3d91;
   margin: 0;
   padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
 }
 h3 {
   color: #061f4a;
+  font-family: 'Titillium Web', sans-serif;
 }
 .mr-auto {
   display: flex;
