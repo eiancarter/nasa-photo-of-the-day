@@ -1,8 +1,6 @@
 import React from "react";
-import "./App.css";
 import NavigationList from "./NavigationList";
 import Example from "./FormExample";
-import "./styles/styles.css";
 
 function FormApp() {
     return (
