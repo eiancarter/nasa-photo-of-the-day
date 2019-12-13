@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText} from "reactstrap";
 
+
 export default function NavigationList(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
-    return (
-    // <div className="Nav">  
+    return ( 
         <Navbar color="light" light expand="md">
             <NavbarBrand href="/">NASA POTD</NavbarBrand>
             <NavbarToggler onClick={toggle} />
@@ -16,7 +16,7 @@ export default function NavigationList(props) {
                         <NavLink href="/components/">About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/components/">Donate</NavLink>
+                        <NavLink href="src/Form">Donate</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/components/">Contact</NavLink>
@@ -26,8 +26,8 @@ export default function NavigationList(props) {
                             Past Photos
                         </DropdownToggle>
                         <DropdownMenu right>
-                            <DropdownItem>
-                                <a href={props.link}>Yesterday</a>
+                            <DropdownItem href={props.link}>
+                                Yesterday
                             </DropdownItem>
                             <DropdownItem>
                                 December 9, 2019
@@ -42,6 +42,5 @@ export default function NavigationList(props) {
                 <NavbarText>Welcome!</NavbarText>
             </Collapse>
         </Navbar>
-    // </div>
     )
 }

@@ -11,7 +11,6 @@ const PhotoCard = props => {
             <div className="bottom">
                 <h3>Explanation:</h3>
                     <p>{props.explanation}</p>
-                <a href={props.link}>Click here to view!</a>
             </div>
         </div>
     );
