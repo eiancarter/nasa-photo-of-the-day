@@ -1,13 +1,19 @@
 import React from "react";
 import "./App.css";
+import PhotoList from "./components/PhotoList";
+import NavigationList from "./components/NavigationList";
+import ImageButton from "./components/Button";
+import "./styles/styles.css";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <div className="Nav">
+       <NavigationList/>
+      </div>
+      <h1>NASA Photo of the Day</h1>
+      <PhotoList/>
+      <ImageButton/>
     </div>
   );
 }
