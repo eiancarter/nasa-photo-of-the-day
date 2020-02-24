@@ -4,6 +4,7 @@ import PhotoList from "./components/PhotoList";
 import NavigationList from "./components/NavigationList";
 import ImageButton from "./components/Button";
 import "./styles/styles.css";
+import FormApp from "./components/FormPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <h1>NASA Photo of the Day</h1>
       <PhotoList/>
       <ImageButton/>
+      <FormApp/>
     </div>
   );
 }

@@ -10,7 +10,7 @@ const PhotoCard = props => {
             </div>
             <div className="bottom">
                 <h3>Explanation:</h3>
-                    <p>{props.explanation}</p>
+                    <p>{props.explanation}</p> 
             </div>
         </div>
     );
